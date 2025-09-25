@@ -8,5 +8,6 @@ generator client {
 }
 
 model MyTable {
-  id      Int    @id @default(autoincrement())
+  id       Int    @id @default(autoincrement())
+  column1  String
 }
